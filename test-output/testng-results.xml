@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="8" passed="0" failed="0" skipped="8">
+<testng-results total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-10T11:17:56Z" name="Suite1" finished-at="2024-01-10T11:18:09Z" duration-ms="13159">
+  <suite started-at="2024-01-10T12:02:39Z" name="Suite1" finished-at="2024-01-10T12:02:46Z" duration-ms="7049">
     <groups>
     </groups>
-    <test started-at="2024-01-10T11:17:56Z" name="Test" finished-at="2024-01-10T11:18:09Z" duration-ms="13159">
+    <test started-at="2024-01-10T12:02:39Z" name="Command line test 490f0ae8-e264-401c-a744-93060a3a3a2e" finished-at="2024-01-10T12:02:46Z" duration-ms="7049">
       <class name="org.testing.TestScripts.Final_TC1">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC1@7139992f]" started-at="2024-01-10T03:17:56Z" name="browser_launch" finished-at="2024-01-10T03:18:08Z" duration-ms="12019" status="PASS">
+        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC1@4cf4d528]" started-at="2024-01-10T04:02:39Z" name="browser_launch" finished-at="2024-01-10T04:02:45Z" duration-ms="6233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC1@7139992f]" started-at="2024-01-10T03:18:08Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:08Z" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC1@4cf4d528]" started-at="2024-01-10T04:02:45Z" name="TestCase_TC1_Login" finished-at="2024-01-10T04:02:45Z" duration-ms="0" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -20,9 +20,9 @@ from unknown error: web view not found
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [262ecb303f794e5a674f7b5c2faecdfe, findElement {using=xpath, value=(//div[@class='yt-spec-touch-feedback-shape__fill'])[4]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51674/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 262ecb303f794e5a674f7b5c2faecdfe]]>
+Command: [7341948c9e8727baffc2b37b9f1b86a9, findElement {using=xpath, value=(//div[@class='yt-spec-touch-feedback-shape__fill'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52970}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52970/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7341948c9e8727baffc2b37b9f1b86a9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -31,9 +31,9 @@ from unknown error: web view not found
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [262ecb303f794e5a674f7b5c2faecdfe, findElement {using=xpath, value=(//div[@class='yt-spec-touch-feedback-shape__fill'])[4]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51674}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51674/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 262ecb303f794e5a674f7b5c2faecdfe
+Command: [7341948c9e8727baffc2b37b9f1b86a9, findElement {using=xpath, value=(//div[@class='yt-spec-touch-feedback-shape__fill'])[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.201, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52970}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52970/devtoo..., se:cdpVersion: 120.0.6099.201, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7341948c9e8727baffc2b37b9f1b86a9
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -75,182 +75,70 @@ Session ID: 262ecb303f794e5a674f7b5c2faecdfe
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
 	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at org.testing.trigger.Runner.main(Runner.java:53)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="Trending_Click()[pri:1, instance:org.testing.TestScripts.Final_TC1@7139992f]" started-at="2024-01-10T03:18:09Z" name="Trending_Click" finished-at="2024-01-10T03:18:09Z" duration-ms="3" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Trending_Click -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC1@7139992f]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC1@4cf4d528]" started-at="2024-01-10T04:02:46Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC1@7139992f]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
+        <test-method signature="Trending_Click()[pri:1, instance:org.testing.TestScripts.Final_TC1@4cf4d528]" started-at="2024-01-10T04:02:46Z" name="Trending_Click" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Trending_Click -->
+        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC1@4cf4d528]" started-at="2024-01-10T04:02:46Z" name="browser_close" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_close -->
       </class> <!-- org.testing.TestScripts.Final_TC1 -->
       <class name="org.testing.TestScripts.Final_TC2">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC2@5340477f]" started-at="2024-01-10T03:18:09Z" name="browser_launch" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC2@5340477f]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC2@77846d2c]" started-at="2024-01-10T04:02:46Z" name="TestCase_TC1_Login" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="Click_History()[pri:2, instance:org.testing.TestScripts.Final_TC2@5340477f]" started-at="2024-01-10T03:18:09Z" name="Click_History" finished-at="2024-01-10T03:18:09Z" duration-ms="4" status="SKIP">
+        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC2@77846d2c]" started-at="2024-01-10T04:02:46Z" name="browser_launch" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_launch -->
+        <test-method signature="Click_History()[pri:2, instance:org.testing.TestScripts.Final_TC2@77846d2c]" started-at="2024-01-10T04:02:46Z" name="Click_History" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Click_History -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC2@5340477f]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC2@77846d2c]" started-at="2024-01-10T04:02:46Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC2@5340477f]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC2@77846d2c]" started-at="2024-01-10T04:02:46Z" name="browser_close" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_close -->
       </class> <!-- org.testing.TestScripts.Final_TC2 -->
       <class name="org.testing.TestScripts.Final_TC3">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC3@47caedad]" started-at="2024-01-10T03:18:09Z" name="browser_launch" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC3@548ad73b]" started-at="2024-01-10T04:02:46Z" name="browser_launch" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC3@47caedad]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC3@548ad73b]" started-at="2024-01-10T04:02:46Z" name="TestCase_TC1_Login" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="Click_Subscription()[pri:3, instance:org.testing.TestScripts.Final_TC3@47caedad]" started-at="2024-01-10T03:18:09Z" name="Click_Subscription" finished-at="2024-01-10T03:18:09Z" duration-ms="2" status="SKIP">
+        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC3@548ad73b]" started-at="2024-01-10T04:02:46Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_TC1_Logout -->
+        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC3@548ad73b]" started-at="2024-01-10T04:02:46Z" name="browser_close" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_close -->
+        <test-method signature="Click_Subscription()[pri:3, instance:org.testing.TestScripts.Final_TC3@548ad73b]" started-at="2024-01-10T04:02:46Z" name="Click_Subscription" finished-at="2024-01-10T04:02:46Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Click_Subscription -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC3@47caedad]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC3@47caedad]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_close -->
       </class> <!-- org.testing.TestScripts.Final_TC3 -->
-      <class name="org.testing.TestScripts.Final_TC4">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC4@4f0f2942]" started-at="2024-01-10T03:18:09Z" name="browser_launch" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC4@4f0f2942]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="videoplay_and_Like()[pri:4, instance:org.testing.TestScripts.Final_TC4@4f0f2942]" started-at="2024-01-10T03:18:09Z" name="videoplay_and_Like" finished-at="2024-01-10T03:18:09Z" duration-ms="1" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- videoplay_and_Like -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC4@4f0f2942]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC4@4f0f2942]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_close -->
-      </class> <!-- org.testing.TestScripts.Final_TC4 -->
-      <class name="org.testing.TestScripts.Final_TC5">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC5@2657d4dd]" started-at="2024-01-10T03:18:09Z" name="browser_launch" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC5@2657d4dd]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="VideoPlay_and_Channel_Subscribe()[pri:5, instance:org.testing.TestScripts.Final_TC5@2657d4dd]" started-at="2024-01-10T03:18:09Z" name="VideoPlay_and_Channel_Subscribe" finished-at="2024-01-10T03:18:09Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VideoPlay_and_Channel_Subscribe -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC5@2657d4dd]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC5@2657d4dd]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_close -->
-      </class> <!-- org.testing.TestScripts.Final_TC5 -->
-      <class name="org.testing.TestScripts.Final_TC6">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC6@58e1d9d]" started-at="2024-01-10T03:18:09Z" name="browser_launch" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC6@58e1d9d]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="video_play_and_Comment()[pri:6, instance:org.testing.TestScripts.Final_TC6@58e1d9d]" started-at="2024-01-10T03:18:09Z" name="video_play_and_Comment" finished-at="2024-01-10T03:18:09Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- video_play_and_Comment -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC6@58e1d9d]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC6@58e1d9d]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_close -->
-      </class> <!-- org.testing.TestScripts.Final_TC6 -->
-      <class name="org.testing.TestScripts.Final_TC7">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC7@446a1e84]" started-at="2024-01-10T03:18:09Z" name="browser_launch" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC7@446a1e84]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="Click_Watch_Later()[pri:7, instance:org.testing.TestScripts.Final_TC7@446a1e84]" started-at="2024-01-10T03:18:09Z" name="Click_Watch_Later" finished-at="2024-01-10T03:18:09Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Click_Watch_Later -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC7@446a1e84]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC7@446a1e84]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_close -->
-      </class> <!-- org.testing.TestScripts.Final_TC7 -->
-      <class name="org.testing.TestScripts.Final_TC8">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:org.testing.TestScripts.Final_TC8@29d80d2b]" started-at="2024-01-10T03:18:09Z" name="browser_launch" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method is-config="true" signature="TestCase_TC1_Login()[pri:0, instance:org.testing.TestScripts.Final_TC8@29d80d2b]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Login" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Login -->
-        <test-method signature="Click_Learning()[pri:8, instance:org.testing.TestScripts.Final_TC8@29d80d2b]" started-at="2024-01-10T03:18:09Z" name="Click_Learning" finished-at="2024-01-10T03:18:09Z" duration-ms="2" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Click_Learning -->
-        <test-method is-config="true" signature="TestCase_TC1_Logout()[pri:0, instance:org.testing.TestScripts.Final_TC8@29d80d2b]" started-at="2024-01-10T03:18:09Z" name="TestCase_TC1_Logout" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestCase_TC1_Logout -->
-        <test-method is-config="true" signature="browser_close()[pri:0, instance:org.testing.TestScripts.Final_TC8@29d80d2b]" started-at="2024-01-10T03:18:09Z" name="browser_close" finished-at="2024-01-10T03:18:09Z" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_close -->
-      </class> <!-- org.testing.TestScripts.Final_TC8 -->
-    </test> <!-- Test -->
+    </test> <!-- Command line test 490f0ae8-e264-401c-a744-93060a3a3a2e -->
   </suite> <!-- Suite1 -->
 </testng-results>
