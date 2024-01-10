@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="8" name="Test">
+    <classes>
+      <class name="org.testing.TestScripts.Final_TC8"/>
+      <class name="org.testing.TestScripts.Final_TC6"/>
+      <class name="org.testing.TestScripts.Final_TC7"/>
+      <class name="org.testing.TestScripts.Final_TC4"/>
+      <class name="org.testing.TestScripts.Final_TC5"/>
+      <class name="org.testing.TestScripts.Final_TC2"/>
+      <class name="org.testing.TestScripts.Final_TC3"/>
+      <class name="org.testing.TestScripts.Final_TC1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.Final_TC8">
+        <methods>
+          <include name="Click_Learning"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC8 -->
+      <class name="org.testing.TestScripts.Final_TC3">
+        <methods>
+          <include name="Click_Subscription"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC3 -->
+      <class name="org.testing.TestScripts.Final_TC4">
+        <methods>
+          <include name="videoplay_and_Like"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC4 -->
+      <class name="org.testing.TestScripts.Final_TC7">
+        <methods>
+          <include name="Click_Watch_Later"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC7 -->
+      <class name="org.testing.TestScripts.Final_TC1">
+        <methods>
+          <include name="browser_launch"/>
+          <include name="TestCase_TC1_Login"/>
+          <include name="Trending_Click"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC1 -->
+      <class name="org.testing.TestScripts.Final_TC2">
+        <methods>
+          <include name="Click_History"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC2 -->
+      <class name="org.testing.TestScripts.Final_TC5">
+        <methods>
+          <include name="VideoPlay_and_Channel_Subscribe"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC5 -->
+      <class name="org.testing.TestScripts.Final_TC6">
+        <methods>
+          <include name="video_play_and_Comment"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.Final_TC6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
