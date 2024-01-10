@@ -35,7 +35,7 @@ public class Final_TC1 extends Base {
 		// I will Call Takecreenshot Method -- because it is Static Method so no need to
 		// Create object
 		// Just Classname and . call the Method Name
-		ScreenshotCapture.takeScreenshot(driver, "..//YouTube_Framework_Development//Screenshot//1png.png");
+		//ScreenshotCapture.takeScreenshot(driver, "..//YouTube_Framework_Development//Screenshot//1png.png");
 		/**
 		 * executelogclassname - Means - Name of the Class anme in which you want to
 		 * Execute the Log // Format of Log file is
@@ -51,7 +51,7 @@ public class Final_TC1 extends Base {
 		Home_Page Home = new Home_Page(driver, pr);
 		Home.Click_Trending_section();
 		Thread.sleep(2000);
-		ScreenshotCapture.takeScreenshot(driver, "..//YouTube_Framework_Development//Screenshot//2png.png");
+		//ScreenshotCapture.takeScreenshot(driver, "..//YouTube_Framework_Development//Screenshot//2png.png");
 		LogsCapture.takeLog("Final_TC1", "Trending Click process - Completed");
 
 		String actual = "txt";
@@ -64,7 +64,7 @@ public class Final_TC1 extends Base {
 	public void TestCase_TC1_Logout() throws Exception {
 		LogsCapture.takeLog("Final_TC1", "Logout process Started");
 		Logout_Page logout = new Logout_Page(driver, pr);
-		ScreenshotCapture.takeScreenshot(driver, "..//YouTube_Framework_Development//Screenshot//3png.png");
+		//ScreenshotCapture.takeScreenshot(driver, "..//YouTube_Framework_Development//Screenshot//3png.png");
 		logout.logout_successfully();
 		ScreenshotCapture.takeScreenshot(driver, "..//YouTube_Framework_Development//Screenshot//4png.png");
 		LogsCapture.takeLog("Final_TC1", "Logout Successfully - Completed");
