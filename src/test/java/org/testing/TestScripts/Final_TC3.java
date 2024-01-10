@@ -18,7 +18,7 @@ public class Final_TC3 extends Base{
 		Thread.sleep(7000);
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void Click_Subscription() throws Exception {
 		System.out.println("Subscription section - Started");
 		Home_Page Home = new Home_Page(driver, pr);
