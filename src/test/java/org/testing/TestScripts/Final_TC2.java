@@ -23,7 +23,7 @@ public class Final_TC2 extends Base  {
 		//Assertt.assertion1(null, null, null);
 	}
 	
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void Click_History() throws Exception {
 		LogsCapture.takeLog("Final_TC2", "Click on History  - Started");
 		Home_Page Home = new Home_Page(driver, pr);
